@@ -16,30 +16,11 @@ RunRef is a modern, searchable, and interactive reference guide for Windows Run 
 -   **Responsive Design**: Fully usable on desktop, tablet, and mobile devices.
 -   **No Frameworks**: Built with pure JavaScript for maximum performance and zero dependencies.
 
-## Getting Started
+## 🚀 Live Demo
 
-Since this is a static website, you can run it by simply opening the `index.html` file in your web browser.
+You can view the fully functional project live in your browser here: **[➡️ View Live Demo](https://mohamad-albeik.github.io/run-reference/)**
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPONAME.git
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd YOUR_REPONAME
-    ```
-3.  Open `index.html` in your favorite browser.
-
-## How to Contribute
-
-Contributions are welcome! If you have a suggestion, find a bug, or want to add a new command:
-
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/your-feature-name`).
-3.  Make your changes (e.g., add new commands to `js/data.js`).
-4.  Commit your changes (`git commit -m 'Add some feature'`).
-5.  Push to the branch (`git push origin feature/your-feature-name`).
-6.  Open a Pull Request.
+*(Note: If you clone this repository, you cannot simply double-click `index.html` to run it due to browser security settings. Please use the live link above unless you are setting up a local server.)*
 
 ## 📞 Contact
 
@@ -51,5 +32,6 @@ Mohamad Malek Albeik
 ---
 
 *This project was built with passion and continuous learning.*
+
 
 
