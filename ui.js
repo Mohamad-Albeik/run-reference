@@ -41,6 +41,7 @@ const UI = {
         const badges = [];
         if (cmd.admin) badges.push('<span class="badge admin">Admin</span>');
         if (cmd.dangerous) badges.push('<span class="badge danger">Warning</span>');
+        if (cmd.deletable) badges.push('<span class="badge delete">Delete</span>');
 
         // Dangerous content logic
         const contentClass = cmd.dangerous ? 'blur-content' : '';
