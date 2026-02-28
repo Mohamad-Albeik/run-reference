@@ -2,7 +2,7 @@
 
 RunRef is a modern, searchable, and interactive reference guide for Windows Run dialog commands. Built with vanilla JavaScript, HTML, and CSS, it provides a clean and fast interface for power users, system administrators, and anyone looking to master Windows shortcuts.
 #
-<img width="1387" height="700" alt="image" src="https://github.com/user-attachments/assets/7d20e427-2f4c-4700-aba0-591933a07859" />
+<img width="1390" height="714" alt="Screenshot 2026-02-28 004909" src="https://github.com/user-attachments/assets/ee92472a-5df7-4abf-b3c9-bb8563e13942" />
 
 
 
@@ -48,6 +48,7 @@ Mohamad Malek Albeik
 
 
 *This project was built with passion and continuous learning.*
+
 
 
 
