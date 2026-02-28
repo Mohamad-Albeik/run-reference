@@ -73,7 +73,12 @@ body {
     cursor: pointer;
 }
 
-.win-icon, 
+.win-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
 .highlight {
     color: var(--color-primary);
 }
@@ -217,6 +222,7 @@ kbd {
 }
 .badge.admin { background: rgba(210, 153, 34, 0.2); color: var(--color-warning); }
 .badge.danger { background: rgba(248, 81, 73, 0.2); color: var(--color-danger); }
+.badge.delete { background: rgba(46, 160, 67, 0.85); color: #ffffff; }
 
 /* Syntax & Copy */
 .syntax-block {

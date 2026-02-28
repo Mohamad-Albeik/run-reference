@@ -114,36 +114,80 @@ const runData = [
                 keywords: ["disk", "cleanup", "space", "temp", "files", "junk"]
             },
             {
+                name: "cleanmgr /sageset:1",
+                desc: "Configure Disk Cleanup options for a saved preset.",
+                syntax: "cleanmgr /sageset:1",
+                admin: true,
+                dangerous: false,
+                keywords: ["disk", "cleanup", "sageset", "preset", "settings"]
+            },
+            {
+                name: "cleanmgr /sagerun:1",
+                desc: "Run Disk Cleanup using the saved preset.",
+                syntax: "cleanmgr /sagerun:1",
+                admin: true,
+                dangerous: false,
+                keywords: ["disk", "cleanup", "sagerun", "preset", "automation"]
+            },
+            {
                 name: "%temp%",
-                desc: "Open the temporary files folder to manually clear junk files.",
+                desc: "Open the temporary files folder to manually clear junk files. You can delete files here.",
                 syntax: "%temp%",
                 admin: false,
                 dangerous: false,
+                deletable: true,
                 keywords: ["temp", "temporary", "files", "junk", "cache"]
             },
             {
+                name: "temp",
+                desc: "Open the Windows temp folder. You can delete files here.",
+                syntax: "temp",
+                admin: false,
+                dangerous: false,
+                deletable: true,
+                keywords: ["temp", "temporary", "files", "cleanup"]
+            },
+            {
+                name: "recent",
+                desc: "Open the Recent items folder. You can delete files here.",
+                syntax: "recent",
+                admin: false,
+                dangerous: false,
+                deletable: true,
+                keywords: ["recent", "files", "cleanup", "history"]
+            },
+            {
                 name: "prefetch",
-                desc: "Open the Prefetch folder to clear application launch files.",
+                desc: "Open the Prefetch folder to clear application launch files. You can delete files here.",
                 syntax: "prefetch",
                 admin: true,
                 dangerous: false,
+                deletable: true,
                 keywords: ["performance", "startup", "cache", "prefetch"]
             },
             {
-                name: "sfc /scannow",
-                desc: "System File Checker. Scans and repairs protected system files.",
-                syntax: "sfc /scannow",
-                admin: true,
+                name: "ms-settings:storagesense",
+                desc: "Storage Sense settings. Automate cleanup of temporary files.",
+                syntax: "ms-settings:storagesense",
+                admin: false,
                 dangerous: false,
-                keywords: ["system", "file", "checker", "health", "scan", "integrity", "repair"]
+                keywords: ["storage", "sense", "cleanup", "temporary", "automation"]
             },
             {
-                name: "DISM RestoreHealth",
-                desc: "Repairs the Windows image and component store.",
-                syntax: "DISM /Online /Cleanup-Image /RestoreHealth",
-                admin: true,
-                dangerous: true,
-                keywords: ["dism", "health", "repair", "image", "component", "store", "cleanup"]
+                name: "ms-settings:storagepolicies",
+                desc: "Storage Sense cleanup rules and policies.",
+                syntax: "ms-settings:storagepolicies",
+                admin: false,
+                dangerous: false,
+                keywords: ["storage", "policies", "cleanup", "rules", "settings"]
+            },
+            {
+                name: "wsreset",
+                desc: "Reset Microsoft Store cache.",
+                syntax: "wsreset",
+                admin: false,
+                dangerous: false,
+                keywords: ["store", "cache", "reset", "cleanup"]
             },
             {
                 name: "dfrgui",
@@ -184,6 +228,14 @@ const runData = [
                 admin: false,
                 dangerous: false,
                 keywords: ["performance", "cpu", "memory", "disk", "network"]
+            },
+            {
+                name: "mrt",
+                desc: "Malware Removal Tool.",
+                syntax: "mrt",
+                admin: true,
+                dangerous: false,
+                keywords: ["malware", "removal", "scanner", "security", "tool"]
             }
         ]
     },
